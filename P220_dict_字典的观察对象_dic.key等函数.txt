@@ -1,0 +1,9 @@
+用法：
+dic.keys()      得到dic所有的关键字，顺序由解释器内部确定
+dic.values()    等到dic的所有值，顺序由解释器内部确定
+dic.items()     等到dic的所有关联，顺序由解释器内部确定
+
+
+dic[k]=v        在dic里记录关键字k关联的值为v（无论原来有没有）
+dic[k]          得到dic里与关键字k关联的值，如果k不存在则报错
+dic.get(k,default)  得到dic中与关键字k关联的值，如果k不存在则返回default(如果没写default，则返回None)

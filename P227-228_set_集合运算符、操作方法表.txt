@@ -1,0 +1,17 @@
+如题，见原书。
+
+比如:
+    s1 <= s2
+
+    s.union(s2,...)
+    s1 | s2 | ...
+
+    s.add(x)
+    s.remove(x)
+    s.discard(x)
+    s.pop()
+    s.clear()
+
+    s1.update(s2,...)
+    s1 -= s2 | ...
+    
